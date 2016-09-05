@@ -1,6 +1,6 @@
 cask 'vault' do
-  version '0.6.0'
-  sha256 '75a884f3f209f2fdd942fc4b5c80a611c58380ccf249f6dc4d3b1c35373d87b2'
+  version '0.6.1'
+  sha256 'a2daa1f8669899296c193347664f97e4acec97d298ebac489b60a03dae8aca4d'
 
   url "https://releases.hashicorp.com/vault/#{version}/vault_#{version}_darwin_amd64.zip"
   appcast 'https://github.com/hashicorp/vault/releases.atom',
