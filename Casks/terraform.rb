@@ -1,6 +1,6 @@
 cask 'terraform' do
-  version '0.7.2'
-  sha256 '2a441124efd097007414545714927a9239980a5b0707384b0ee07badbae781cf'
+  version '0.7.3'
+  sha256 'e0057e4f32e6490361611e3eb34e35f8b5314d861aa26fd9e89e1a7c4ab773bf'
 
   url "https://releases.hashicorp.com/terraform/#{version}/terraform_#{version}_darwin_amd64.zip"
   appcast 'https://github.com/hashicorp/terraform/releases.atom',
