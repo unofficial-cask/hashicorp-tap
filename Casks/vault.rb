@@ -1,10 +1,10 @@
 cask 'vault' do
-  version '0.6.1'
-  sha256 'a2daa1f8669899296c193347664f97e4acec97d298ebac489b60a03dae8aca4d'
+  version '0.6.2'
+  sha256 'b5e6fadfed6a5226d96714f5ddcf7e042f3424d7489875af125543c967a706b7'
 
   url "https://releases.hashicorp.com/vault/#{version}/vault_#{version}_darwin_amd64.zip"
   appcast 'https://github.com/hashicorp/vault/releases.atom',
-          checkpoint: '82f5ef02c94a4cfe0e1acd3fd0d5156c2ad29a79d05938597246c4532d7d9fc5'
+          checkpoint: 'b28dc9e47667df3585e59e7f47313c0fedfb2d9291d129041a9e5faaa885989d'
   name 'Vault'
   homepage 'https://www.vaultproject.io/'
   license :mpl
