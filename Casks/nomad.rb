@@ -1,10 +1,10 @@
 cask 'nomad' do
-  version '0.4.1'
-  sha256 '5f2d52c73e992313e803fb29b6957ad1b754ed6e68bed5fa9fbe9b8e10a67aeb'
+  version '0.5.0'
+  sha256 'a063a1d1af7012da32dfe11ca8b02324e83e242ff8e8bd27dc00553f1b1a0499'
 
   url "https://releases.hashicorp.com/nomad/#{version}/nomad_#{version}_darwin_amd64.zip"
   appcast 'https://github.com/hashicorp/nomad/releases.atom',
-          checkpoint: '5ecc997a7db0397f1f95369a8272e5d6376764efa7834a81639071865aee82ff'
+          checkpoint: '4d8b68e1f8ee79f7d55b62c4f5da9d5aa1e501d8ee28a3729fdffe4686b3b7f6'
   name 'Nomad'
   homepage 'https://www.nomadproject.io/'
   license :mpl

@@ -1,10 +1,10 @@
 cask 'packer' do
-  version '0.11.0'
-  sha256 '5e3c3448f0efc33069ecfeae698eea475b37ebff385db596f6f4621edfd52797'
-
+  version '0.12.0'
+  sha256 'e3f25ad619f35e10a4195c971d78f29abceb16877bbf2bd75182140373d02bd3'
+  
   url "https://releases.hashicorp.com/packer/#{version}/packer_#{version}_darwin_amd64.zip"
   appcast 'https://github.com/mitchellh/packer/releases.atom',
-          checkpoint: '7515bf959b73b956ceb967351c7e299cbb3668a53d35f9c770eb72e00d93ced6'
+          checkpoint: '784bf193eb38d726a379f4268b239fc4a2baf61efce8c20d87131060435f8340'
   name 'Packer'
   homepage 'https://www.packer.io/'
   license :oss
