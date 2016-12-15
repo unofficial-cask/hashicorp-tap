@@ -1,10 +1,10 @@
 cask 'terraform' do
-  version '0.8.0'
-  sha256 '4f4410be73200f95f84e359409481c8c48bc70e659fc5f7ea3f33a1db574ff65'
+  version '0.8.1'
+  sha256 '275104513600bf50a28942131d928d2be405c75f9f36a9c722718500075856a1'
 
   url "https://releases.hashicorp.com/terraform/#{version}/terraform_#{version}_darwin_amd64.zip"
   appcast 'https://github.com/hashicorp/terraform/releases.atom',
-          checkpoint: '46a624c2d13a919182d4b0655fc187cf7d24e0dbb337ebf25eda96f3d96b15b2'
+          checkpoint: '1abbd5ab2f10ca4cca59363bbe2ea8e8b1ea953075acfedfe492c0523cd70393'
   name 'Terraform'
   homepage 'https://www.terraform.io/'
   license :mpl
