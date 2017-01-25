@@ -9,7 +9,7 @@ https://github.com/caskroom/homebrew-cask/pull/23585#issuecomment-243585809
 ## How to tap it?
 
 ```
-brew tap unofficial-cask/hashicorp-tap git@github.com:unofficial-cask/hashicorp-tap.git
+brew tap unofficial-cask/hashicorp-tap https://github.com/unofficial-cask/hashicorp-tap.git
 ```
 
 ## How to install casks?
