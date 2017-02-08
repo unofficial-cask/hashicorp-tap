@@ -1,6 +1,6 @@
 cask 'packer' do
-  version '0.12.0'
-  sha256 'e3f25ad619f35e10a4195c971d78f29abceb16877bbf2bd75182140373d02bd3'
+  version '0.12.2'
+  sha256 'eef803cd43adc3b67593fd277f94b14ef266fe7124eb247d620beb29ebb4ec85'
   
   url "https://releases.hashicorp.com/packer/#{version}/packer_#{version}_darwin_amd64.zip"
   appcast 'https://github.com/mitchellh/packer/releases.atom',
