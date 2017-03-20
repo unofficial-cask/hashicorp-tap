@@ -1,10 +1,10 @@
 cask 'consul' do
-  version '0.7.1'
-  sha256 '9b3a199779a0d9b92266fae2abd7ed91c18ba437eba46e76114cd1940b3b7741'
+  version '0.7.5'
+  sha256 '9ff8798a94bab99fb2387afae5bc0fc2844a304675abbceb9315292019a8f582'
 
   url "https://releases.hashicorp.com/consul/#{version}/consul_#{version}_darwin_amd64.zip"
   appcast 'https://github.com/hashicorp/consul/releases.atom',
-          checkpoint: '38ef0f44bc4072414cd2a95681f98bf84f2f14959fa505d4c71a86ccfb545653'
+          checkpoint: '0f2cef41051eb9d83cdd101adef44d1e23146cbdeb306a51d3b52807fd9d0f3c'
   name 'Consul'
   homepage 'https://www.consul.io/'
   license :mpl
